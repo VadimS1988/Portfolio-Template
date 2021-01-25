@@ -1,0 +1,149 @@
+
+body {
+	max-width: 1920px;
+	background-color: #000;
+	margin: 0 auto;
+}
+
+.container {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.container .R-Williams {
+	position: absolute;
+	left: 0px;
+	top: 80px;
+	margin-top: 110px;
+	z-index: 2;
+}
+
+.container .R-Williams-resp {
+	display: none;
+}
+
+
+
+.background {
+	/*position: absolute;*/
+	width: 900px;
+	height: 900px;
+	right:0px;		
+	top: 0px;
+	background-color: #181823;
+	z-index: -1;
+	overflow: hidden;
+	}
+
+@media (max-width: 992px) {
+
+	.container {
+		padding: 0 22.4px;
+	}
+
+	.background {
+		display: none;
+	}
+	.self-description h1, .self-description-grey h1 {
+		font-size: 58px;
+		line-height: 67px;
+		text-align: left;
+	}
+	.container .R-Williams {
+		display: none;
+	}
+	.container .R-Williams-resp {
+		display: block;
+		position: absolute;
+		left: 0px;
+		top: 80px;
+		margin-top: 110px;
+		z-index: 2;
+	}
+ }	
+
+ul {
+	list-style: none;
+	display: flex;
+	z-index: 10;
+}
+
+ul li {
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	font-family: Sen;
+	text-decoration: none;
+	align-self: center;
+}
+
+.logo {
+	margin-top: 32px;
+}
+
+.logo img {
+	display: block;
+	z-index: 10;
+}
+
+.nav {
+	padding: 0;
+	justify-content: flex-end;
+}
+
+.hero .nav ul {	
+	padding: 0;
+}
+
+.hero  .nav ul li {
+	padding: 32px 24px;
+}
+
+.hero .nav ul li:hover {
+	background-color: #5221E6;
+}
+
+.hero .nav ul li a {
+	font-family: Sen;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #fff;
+}
+
+.self-description, .self-description-grey, .self-description-paragraph {
+	z-index: 10;
+}
+
+.self-description h1 {
+	font-family: Sen=Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 75px;
+	line-height: 94px;
+	color: #fff;
+	text-align: left;
+	margin-top: 260px;
+}
+
+.self-description-grey h1 {
+	font-family: Sen-Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 75px;
+	line-height: 94px;
+	color: ##8B8B91	;
+	text-align: left;
+}
+
+.self-description-paragraph {
+	font-family: Sen;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #fff;	
+}

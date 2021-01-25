@@ -1,0 +1,19 @@
+@font-face
+  {
+   font-family:Sen; 
+   src: url("../fonts/Sen-Regular.woff"), url("../fonts/Sen-Regular.woff2");
+  }
+
+@font-face
+  {
+   font-family:Sen-Bold; 
+   src: url("../fonts/Sen-Bold.woff"), url("../fonts/Sen-Bold.woff2");
+  }
+
+@font-face
+  {
+   font-family:Sen-Extra-Bold; 
+   src: url("../fonts/Sen-ExtraBold.woff"), url("../fonts/Sen-ExtraBold.woff2");
+  }  
+
+

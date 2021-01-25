@@ -1,0 +1,287 @@
+body {
+	max-width: 1920px;
+	margin: 0 auto;
+	background-color: #000;
+	padding: 0;
+}
+
+.container-fluid {
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+.row{
+	margin: 0;
+}
+
+.hero img:first-child {
+	display: block;
+	margin-top: 2.4vw;
+	margin-left: 5vw;	
+}
+
+.bg-black img:nth-child(2){
+	height: 43vw;
+	position: absolute;
+	left: 0;
+	top: 5.5vw;
+	margin-top: 4.5vw;
+	z-index: 1;
+	width: 50vw;
+}
+
+.bg-black{
+	height: 62vw;
+	background-color: #000;
+	padding: 0;
+	/*z-index: -1;*/
+}
+
+.bg-purple{
+	height: 62vw;
+	background-color: #181823;
+	margin-right: 0;
+	padding: 0;
+	padding-left:170px;
+}	
+
+.bg-purple ul, .footer-menu {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 5vw;
+	z-index: 10;
+}
+
+.bg-purple ul li {
+	display: flex;
+	justify-content: center;
+}
+
+ ul li a {
+	font-family: Sen;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1vw;
+	line-height: 150%;
+	color: #fff;
+	text-decoration: none;
+}
+
+.bg-purple ul li {
+	padding: 2.2vw 1.6vw;
+}
+
+.bg-purple ul li:hover {
+	background-color: #5221E6;
+}
+
+.bg-purple ul li a:hover {
+	color: #fff;
+}
+
+hr{
+	border-bottom: dashed 3px #8491A0;
+	margin: 0;
+	stroke-dasharray: 15;
+}	
+
+.self-description{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 15.5vw;
+	margin-right: 5vw;
+	position: relative;
+	z-index: 10;
+}
+
+.self-description h1 span:first-child{
+	font-family: Sen-Bold;
+	font-style:normal;
+	font-weight: bold;
+	font-size: 5.2vw;
+	line-height: 6vw;
+	color: #fff;
+	text-align: left;
+}
+
+.self-description h1 span:nth-child(2){
+	font-family: Sen-Bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 5.2vw;
+	line-height: 6vw;
+	color: #8B8B91;
+	text-align: left;
+	
+}
+
+h2 {
+	font-size: 55px;
+	line-height: 66px;
+	font-family: Sen-bold;
+	font-style: normal;
+	font-weight:bold;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 150%;
+}
+
+p {
+	font-size: 16px;
+	line-height: 150%;
+}
+
+.self-description p {
+	display: flex;
+	font-family: Sen;
+	font-style: normal;
+	font-weight: normal;
+	color: #fff;
+	margin-right: 40px;	
+}
+
+.experience {
+	background-color: #000;
+	height: 50vw;
+
+}
+
+.experience .exp{
+	font-family: Sen;
+	font-size: 1.3vw;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.6vw;
+	color: #8491A0;
+	text-transform: uppercase;
+
+}
+
+.experience h2 {
+	width: 48vw;
+	font-family: Sen;
+	font-style: normal;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.num {
+	font-family: Sen;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 8.2vw;
+	line-height: 141px;
+	display: flex;
+	align-items: center;
+	color: #8491A0;
+
+}
+
+.experience .row {
+	padding: 0 72px;
+}
+
+.experience p {
+	color: #8491A0;
+	font-family: Sen;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.2vw;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+}
+
+.google span {
+	color: #3cc74e;
+}
+
+.facebook span {
+	color: #609bff;
+}
+
+.dribble span {
+	color:#e95d90;
+}
+
+.company-name {
+	color: #fff;
+	font-family: Sen-bold;
+	font-style: normal;
+	font-weight:bold;
+}
+
+.philosophy {
+	height: 600px;
+}
+
+.philosophy .row div:first-child{
+	background-color: #fff3e4;
+}
+
+.philosophy h2, .instagram h2 {
+	font-family: Sen;
+	font-style: normal;
+	font-weight: bold;
+	color: #181823;
+}
+
+.philosophy p .instagram p {
+	color: #5B6876;
+	font-family: Sen;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.2vw;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+}
+
+.skillset h2, .projects h2, .dribble h2, .testimonials h2, .photography h2, .footer h2 {
+	font-family: Sen;
+	font-style: normal;
+	font-weight: bold;
+	color: #fff;
+}
+
+.skillset h3, .project-sample h3 {
+	color: #fff;
+}
+
+.skillset p, .projects p, .dribble p, .testimonials p, .photography p, .footer p {
+	color: #8491A0;
+	font-family: Sen;
+	font-style: normal;
+	font-weight: normal;
+	display: flex;
+	align-items: center;
+
+}
+
+.project-sample {
+	background-color:  #181823;
+}
+
+.instagram {
+	background-color: #fff;
+}
+
+.instagram h2 {
+	font-family: Sen;
+	font-style: normal;
+	font-weight: bold;
+	color: #181823;
+}
+
+.opinions {
+	border: solid 2px #39414a;
+	padding: 75px;
+	width: 636px;
+}
+
+
+
