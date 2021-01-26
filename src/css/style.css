@@ -15,6 +15,10 @@ body {
 	margin: 0;
 }
 
+.hero .row {
+	display: flex;
+}
+
 .hero img:first-child {
 	display: block;
 	margin-top: 2.4vw;
@@ -22,16 +26,18 @@ body {
 }
 
 .bg-black img:nth-child(2){
+	
 	height: 43vw;
 	position: absolute;
 	left: 0;
 	top: 5.5vw;
 	margin-top: 4.5vw;
 	z-index: 1;
-	width: 50vw;
+	
 }
 
 .bg-black{
+	flex-grow: 1;
 	height: 62vw;
 	background-color: #000;
 	padding: 0;
@@ -39,6 +45,7 @@ body {
 }
 
 .bg-purple{
+	flex-grow: 2;
 	height: 62vw;
 	background-color: #181823;
 	margin-right: 0;
@@ -63,18 +70,19 @@ body {
 	font-family: Sen;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1vw;
+	font-size: 16px;
 	line-height: 150%;
 	color: #fff;
 	text-decoration: none;
 }
 
 .bg-purple ul li {
-	padding: 2.2vw 1.6vw;
+	padding: 32px 24px;
 }
 
 .bg-purple ul li:hover {
 	background-color: #5221E6;
+	z-index: 2;
 }
 
 .bg-purple ul li a:hover {
@@ -88,9 +96,7 @@ hr{
 }	
 
 .self-description{
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 15.5vw;
+	align-self: center;
 	margin-right: 5vw;
 	position: relative;
 	z-index: 10;
@@ -117,9 +123,14 @@ hr{
 	
 }
 
+.wrapper {
+	display: flex;
+	height: inherit;
+}
+
 h2 {
-	font-size: 55px;
-	line-height: 66px;
+	font-size: 3.8vw;
+	line-height: 4.5vw;
 	font-family: Sen-bold;
 	font-style: normal;
 	font-weight:bold;
@@ -131,7 +142,7 @@ h3 {
 }
 
 p {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 150%;
 }
 
@@ -141,23 +152,26 @@ p {
 	font-style: normal;
 	font-weight: normal;
 	color: #fff;
-	margin-right: 40px;	
+	margin-top: 30px;
+	margin-bottom: 150px;
 }
 
 .experience {
 	background-color: #000;
-	height: 50vw;
+	height: 750px;
+	padding-top: 120px;
 
 }
 
 .experience .exp{
 	font-family: Sen;
-	font-size: 1.3vw;
+	font-size: 16px;
 	font-style: normal;
 	font-weight: normal;
 	line-height: 1.6vw;
 	color: #8491A0;
 	text-transform: uppercase;
+
 
 }
 
@@ -167,17 +181,19 @@ p {
 	font-style: normal;
 	font-weight: bold;
 	color: #ffffff;
-}
+	margin-top: 20px;
+}	
 
 .num {
 	font-family: Sen;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 8.2vw;
+	font-size: 117px;
 	line-height: 141px;
 	display: flex;
 	align-items: center;
 	color: #8491A0;
+	margin-top: 30px;
 
 }
 
@@ -190,10 +206,12 @@ p {
 	font-family: Sen;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.2vw;
+	font-size: 16px;
 	line-height: 150%;
 	display: flex;
 	align-items: center;
+	margin-top: 20px;
+	max-width: 370px;
 }
 
 .google span {
